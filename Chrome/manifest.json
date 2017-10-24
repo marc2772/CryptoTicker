@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Crypto Ticker",
+    "version": "0.1",
+    "description": "See the current value of any cryptocurrency you want in realtime",
+    "homepage_url": "https://github.com/marc2772/CryptoTicker",
+    "permissions": [
+        "storage"
+    ],
+    "browser_action": {
+        "default_icon": {
+            "16": "icons/bitcoin16.png",
+            "24": "icons/bitcoin24.png",
+            "32": "icons/bitcoin32.png"
+          },
+        "default_title": "Crypto Ticker",
+        "default_popup": "popup/crypto-ticker.html"
+    },
+    "options_ui": {
+        "page": "options/options.html"
+    }
+}
